@@ -22,6 +22,6 @@ const App = () => {
       </ThemeContext.Provider>
     </StrictMode>
   );
-}
+};
 
 render(<App />, document.getElementById("root"));

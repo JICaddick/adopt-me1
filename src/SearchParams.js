@@ -15,17 +15,17 @@ const SearchParams = () => {
 
   useEffect(() => {
     requestPets();
-  }, []);  
+  }, []);
 
   async function requestPets() {
     const res = await fetch(
       `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
     );
-    const json = await res.json(); 
+    const json = await res.json();
 
     setPets(json.pets);
   }
-  
+
   return (
     <div className="search-params">
       <form
@@ -103,7 +103,7 @@ const SearchParams = () => {
       </form>
       <Results pets={pets} />
     </div>
-  ); 
+  );
 };
 
 export default SearchParams;
