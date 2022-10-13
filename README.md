@@ -1,2 +1,2 @@
-# adopt-me1
-Pet adoption app for Frontend Masters React Course
+<h1> 🐶 Pet Adoption App built on Frontend Masters React Course 🐱</h1>
+
